@@ -1,4 +1,4 @@
-##HackerRank 
+## HackerRank   
 This Questions belongs to [HackerRank](https://www.hackerrank.com/)  
 I just add my own solution which I used in hackerrank.  
 
