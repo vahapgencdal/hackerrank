@@ -1,12 +1,3 @@
-def mini_mux_sum(arr):
-	little= big= 0
-	sort(arr,0,len(arr)-1)
-	for i in range(0,len(arr)-1):
-		little=little+arr[i]
-		big=big+arr[len(arr)-1-i]
-
-	print(str(little)+" "+str(big))
-
 def sort(arr,first,last):
     if(len(arr)>1):
         index=partition(arr,first,last)
@@ -34,5 +25,7 @@ def swap(arr,first,last):
     temp=arr[first]
     arr[first]=arr[last]
     arr[last]=temp
-            
-mini_mux_sum([3, 1, 2, 4, 5])
+
+arr=[10,8,7,9,3,2,1,4,6,5,0]
+sort(arr,0,len(arr)-1)
+print(arr)

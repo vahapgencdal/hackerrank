@@ -1,11 +1,17 @@
-def mini_mux_sum(arr):
-	little= big= 0
-	sort(arr,0,len(arr)-1)
-	for i in range(0,len(arr)-1):
-		little=little+arr[i]
-		big=big+arr[len(arr)-1-i]
+def birthday_cake_candles(arr):
+    if(len(arr)<=0):
+        return 0
+    big=biggest(arr)
+    index=0
+    for num in arr:
+        if(num==big):
+            index+=1
+    return index
+        
 
-	print(str(little)+" "+str(big))
+def biggest(arr):
+    sort(arr,0,len(arr)-1)
+    return arr[len(arr)-1]
 
 def sort(arr,first,last):
     if(len(arr)>1):
@@ -34,5 +40,6 @@ def swap(arr,first,last):
     temp=arr[first]
     arr[first]=arr[last]
     arr[last]=temp
-            
-mini_mux_sum([3, 1, 2, 4, 5])
+
+
+print(birthday_cake_candles([3, 2, 1, 3]))

@@ -13,15 +13,3 @@ def staircase(n):
 
 
 staircase(129999)
-
-
-# char[] spChars=new char[n];
-        # char[] stChars=new char[n];
-        # for(int i=0;i<n;i++){
-        #     spChars[i]=' ';
-        #     stChars[i]='#';
-        # }
-        # for(int i=0;i<n;i++){
-        #     System.out.println(
-        #             String.valueOf(spChars).substring(0,n-i-1)+String.valueOf(stChars).substring(0,i+1));
-        # }
