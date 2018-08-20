@@ -11,4 +11,4 @@ I add this questions and I write their solutions
 7. [Plus Minus](https://github.com/vahapgencdal/hackerrank/tree/master/easy/plus_minus)
 8. [Mini Max Sum](https://github.com/vahapgencdal/hackerrank/tree/master/easy/mini_max_sum)
 9. [Birth Day Candles](https://github.com/vahapgencdal/hackerrank/tree/master/easy/birthday_cake_candles)
-
+10. [Time Conversion](https://github.com/vahapgencdal/hackerrank/tree/master/easy/time_conversion)
